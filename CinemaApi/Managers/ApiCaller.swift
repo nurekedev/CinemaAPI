@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Cpnstants {
+struct Constants {
     static let API_KEY = "5e0f663250da68bcfbbfce622455e8ce"
 }
 
