@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF34AC9B2A74EFD800047C32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AC9A2A74EFD800047C32 /* Extensions.swift */; };
+		AFA7DC9E2A76437A00017E68 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7DC9D2A76437A00017E68 /* Title.swift */; };
+		AFA7DCA22A76561700017E68 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7DCA12A76561700017E68 /* TitleCollectionViewCell.swift */; };
+		AFA7DCA52A76584600017E68 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFA7DCA42A76584600017E68 /* SDWebImage */; };
+		AFA7DCA72A76584600017E68 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AFA7DCA62A76584600017E68 /* SDWebImageMapKit */; };
 		AFF1E58D2A73BE36002F79D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1E58C2A73BE36002F79D1 /* AppDelegate.swift */; };
 		AFF1E58F2A73BE36002F79D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1E58E2A73BE36002F79D1 /* SceneDelegate.swift */; };
 		AFF1E5912A73BE36002F79D1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1E5902A73BE36002F79D1 /* MainTabBarController.swift */; };
@@ -22,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF34AC9A2A74EFD800047C32 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AFA7DC9D2A76437A00017E68 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		AFA7DCA12A76561700017E68 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		AFF1E5892A73BE36002F79D1 /* CinemaApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF1E58C2A73BE36002F79D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF1E58E2A73BE36002F79D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA7DCA72A76584600017E68 /* SDWebImageMapKit in Frameworks */,
+				AFA7DCA52A76584600017E68 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,7 @@
 			children = (
 				AFF1E5AE2A73C6A6002F79D1 /* CollectionViewTableViewCell.swift */,
 				AFF1E5B02A73D35B002F79D1 /* BannerHeaderUIView.swift */,
+				AFA7DCA12A76561700017E68 /* TitleCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +125,7 @@
 		AFF1E5AB2A73C664002F79D1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AFA7DC9D2A76437A00017E68 /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +133,7 @@
 		AFF1E5AC2A73C670002F79D1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AF34AC9A2A74EFD800047C32 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -149,6 +162,10 @@
 			dependencies = (
 			);
 			name = CinemaApi;
+			packageProductDependencies = (
+				AFA7DCA42A76584600017E68 /* SDWebImage */,
+				AFA7DCA62A76584600017E68 /* SDWebImageMapKit */,
+			);
 			productName = CinemaApi;
 			productReference = AFF1E5892A73BE36002F79D1 /* CinemaApi.app */;
 			productType = "com.apple.product-type.application";
@@ -177,6 +194,9 @@
 				Base,
 			);
 			mainGroup = AFF1E5802A73BE36002F79D1;
+			packageReferences = (
+				AFA7DCA32A76584600017E68 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = AFF1E58A2A73BE36002F79D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,14 +224,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF1E5A62A73C0ED002F79D1 /* SearchViewController.swift in Sources */,
+				AFA7DCA22A76561700017E68 /* TitleCollectionViewCell.swift in Sources */,
 				AFF1E5912A73BE36002F79D1 /* MainTabBarController.swift in Sources */,
 				AFF1E5AF2A73C6A6002F79D1 /* CollectionViewTableViewCell.swift in Sources */,
 				AFF1E5A82A73C10B002F79D1 /* DownloadsViewController.swift in Sources */,
 				AFF1E58D2A73BE36002F79D1 /* AppDelegate.swift in Sources */,
 				AFF1E58F2A73BE36002F79D1 /* SceneDelegate.swift in Sources */,
 				AFF1E5B12A73D35B002F79D1 /* BannerHeaderUIView.swift in Sources */,
+				AF34AC9B2A74EFD800047C32 /* Extensions.swift in Sources */,
 				AFF1E5A42A73C0C4002F79D1 /* UpcomingViewController.swift in Sources */,
 				AFF1E5A22A73C050002F79D1 /* HomeViewController.swift in Sources */,
+				AFA7DC9E2A76437A00017E68 /* Title.swift in Sources */,
 				AFF1E5B32A73EA03002F79D1 /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +443,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFA7DCA32A76584600017E68 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFA7DCA42A76584600017E68 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFA7DCA32A76584600017E68 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		AFA7DCA62A76584600017E68 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFA7DCA32A76584600017E68 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AFF1E5812A73BE36002F79D1 /* Project object */;
 }
