@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF282D1E2A77BCE8003F0B54 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF282D1D2A77BCE8003F0B54 /* TitleTableViewCell.swift */; };
+		AF282D202A77C912003F0B54 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF282D1F2A77C912003F0B54 /* TitleViewModel.swift */; };
 		AF34AC9B2A74EFD800047C32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AC9A2A74EFD800047C32 /* Extensions.swift */; };
+		AF437E432A7907B200A598C5 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF437E422A7907B200A598C5 /* SearchResultsViewController.swift */; };
+		AF437E452A791DDC00A598C5 /* YouTubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF437E442A791DDC00A598C5 /* YouTubeSearchResponse.swift */; };
+		AF437E472A792F5700A598C5 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF437E462A792F5700A598C5 /* TitlePreviewViewController.swift */; };
+		AF437E492A79332D00A598C5 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF437E482A79332D00A598C5 /* TitlePreviewViewModel.swift */; };
+		AF66B12A2A7A613200B15AF7 /* DataPersistanceMangager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66B1292A7A613200B15AF7 /* DataPersistanceMangager.swift */; };
 		AFA7DC9E2A76437A00017E68 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7DC9D2A76437A00017E68 /* Title.swift */; };
 		AFA7DCA22A76561700017E68 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7DCA12A76561700017E68 /* TitleCollectionViewCell.swift */; };
 		AFA7DCA52A76584600017E68 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFA7DCA42A76584600017E68 /* SDWebImage */; };
 		AFA7DCA72A76584600017E68 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AFA7DCA62A76584600017E68 /* SDWebImageMapKit */; };
+		AFCE0D212A7A5EE800FCD15B /* CinemaApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFCE0D1F2A7A5EE800FCD15B /* CinemaApi.xcdatamodeld */; };
 		AFF1E58D2A73BE36002F79D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1E58C2A73BE36002F79D1 /* AppDelegate.swift */; };
 		AFF1E58F2A73BE36002F79D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1E58E2A73BE36002F79D1 /* SceneDelegate.swift */; };
 		AFF1E5912A73BE36002F79D1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1E5902A73BE36002F79D1 /* MainTabBarController.swift */; };
@@ -27,9 +35,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF282D1D2A77BCE8003F0B54 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		AF282D1F2A77C912003F0B54 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		AF34AC9A2A74EFD800047C32 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF437E422A7907B200A598C5 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		AF437E442A791DDC00A598C5 /* YouTubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResponse.swift; sourceTree = "<group>"; };
+		AF437E462A792F5700A598C5 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		AF437E482A79332D00A598C5 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		AF66B1292A7A613200B15AF7 /* DataPersistanceMangager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceMangager.swift; sourceTree = "<group>"; };
 		AFA7DC9D2A76437A00017E68 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		AFA7DCA12A76561700017E68 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFCE0D202A7A5EE800FCD15B /* CinemaApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CinemaApi.xcdatamodel; sourceTree = "<group>"; };
 		AFF1E5892A73BE36002F79D1 /* CinemaApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF1E58C2A73BE36002F79D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF1E58E2A73BE36002F79D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +75,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF437E402A79077900A598C5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AFF1E5902A73BE36002F79D1 /* MainTabBarController.swift */,
+				AFF1E5A12A73C050002F79D1 /* HomeViewController.swift */,
+				AFF1E5A32A73C0C4002F79D1 /* UpcomingViewController.swift */,
+				AFF1E5A52A73C0ED002F79D1 /* SearchViewController.swift */,
+				AFF1E5A72A73C10B002F79D1 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF437E412A79078800A598C5 /* Genaral */ = {
+			isa = PBXGroup;
+			children = (
+				AF437E422A7907B200A598C5 /* SearchResultsViewController.swift */,
+				AF437E462A792F5700A598C5 /* TitlePreviewViewController.swift */,
+			);
+			path = Genaral;
+			sourceTree = "<group>";
+		};
 		AFF1E5802A73BE36002F79D1 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +126,7 @@
 				AFF1E5952A73BE37002F79D1 /* Assets.xcassets */,
 				AFF1E5972A73BE37002F79D1 /* LaunchScreen.storyboard */,
 				AFF1E59A2A73BE37002F79D1 /* Info.plist */,
+				AFCE0D1F2A7A5EE800FCD15B /* CinemaApi.xcdatamodeld */,
 			);
 			path = CinemaApi;
 			sourceTree = "<group>";
@@ -96,11 +134,8 @@
 		AFF1E5A02A73C02C002F79D1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AFF1E5902A73BE36002F79D1 /* MainTabBarController.swift */,
-				AFF1E5A12A73C050002F79D1 /* HomeViewController.swift */,
-				AFF1E5A32A73C0C4002F79D1 /* UpcomingViewController.swift */,
-				AFF1E5A52A73C0ED002F79D1 /* SearchViewController.swift */,
-				AFF1E5A72A73C10B002F79D1 /* DownloadsViewController.swift */,
+				AF437E412A79078800A598C5 /* Genaral */,
+				AF437E402A79077900A598C5 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -111,6 +146,7 @@
 				AFF1E5AE2A73C6A6002F79D1 /* CollectionViewTableViewCell.swift */,
 				AFF1E5B02A73D35B002F79D1 /* BannerHeaderUIView.swift */,
 				AFA7DCA12A76561700017E68 /* TitleCollectionViewCell.swift */,
+				AF282D1D2A77BCE8003F0B54 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +154,8 @@
 		AFF1E5AA2A73C655002F79D1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				AF282D1F2A77C912003F0B54 /* TitleViewModel.swift */,
+				AF437E482A79332D00A598C5 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -126,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				AFA7DC9D2A76437A00017E68 /* Title.swift */,
+				AF437E442A791DDC00A598C5 /* YouTubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				AFF1E5B22A73EA03002F79D1 /* ApiCaller.swift */,
+				AF66B1292A7A613200B15AF7 /* DataPersistanceMangager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -223,16 +263,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF282D1E2A77BCE8003F0B54 /* TitleTableViewCell.swift in Sources */,
 				AFF1E5A62A73C0ED002F79D1 /* SearchViewController.swift in Sources */,
 				AFA7DCA22A76561700017E68 /* TitleCollectionViewCell.swift in Sources */,
 				AFF1E5912A73BE36002F79D1 /* MainTabBarController.swift in Sources */,
+				AF66B12A2A7A613200B15AF7 /* DataPersistanceMangager.swift in Sources */,
 				AFF1E5AF2A73C6A6002F79D1 /* CollectionViewTableViewCell.swift in Sources */,
+				AFCE0D212A7A5EE800FCD15B /* CinemaApi.xcdatamodeld in Sources */,
 				AFF1E5A82A73C10B002F79D1 /* DownloadsViewController.swift in Sources */,
 				AFF1E58D2A73BE36002F79D1 /* AppDelegate.swift in Sources */,
 				AFF1E58F2A73BE36002F79D1 /* SceneDelegate.swift in Sources */,
 				AFF1E5B12A73D35B002F79D1 /* BannerHeaderUIView.swift in Sources */,
+				AF437E432A7907B200A598C5 /* SearchResultsViewController.swift in Sources */,
 				AF34AC9B2A74EFD800047C32 /* Extensions.swift in Sources */,
+				AF437E452A791DDC00A598C5 /* YouTubeSearchResponse.swift in Sources */,
+				AF282D202A77C912003F0B54 /* TitleViewModel.swift in Sources */,
+				AF437E492A79332D00A598C5 /* TitlePreviewViewModel.swift in Sources */,
 				AFF1E5A42A73C0C4002F79D1 /* UpcomingViewController.swift in Sources */,
+				AF437E472A792F5700A598C5 /* TitlePreviewViewController.swift in Sources */,
 				AFF1E5A22A73C050002F79D1 /* HomeViewController.swift in Sources */,
 				AFA7DC9E2A76437A00017E68 /* Title.swift in Sources */,
 				AFF1E5B32A73EA03002F79D1 /* ApiCaller.swift in Sources */,
@@ -467,6 +515,19 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AFCE0D1F2A7A5EE800FCD15B /* CinemaApi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFCE0D202A7A5EE800FCD15B /* CinemaApi.xcdatamodel */,
+			);
+			currentVersion = AFCE0D202A7A5EE800FCD15B /* CinemaApi.xcdatamodel */;
+			path = CinemaApi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AFF1E5812A73BE36002F79D1 /* Project object */;
 }

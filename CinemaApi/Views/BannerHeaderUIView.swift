@@ -35,7 +35,6 @@ class BannerHeaderUIView: UIView {
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.image = UIImage(named: "bannerImage")
-        print("Works")
         return imageView
         
     }()
@@ -80,6 +79,15 @@ class BannerHeaderUIView: UIView {
         applyConstraints()
 
         
+    }
+    
+    public func configure(with model: TitleViewModel){
+        
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model.posterUrl)") else {
+          return
+        }
+        
+        bannerImageView.sd_setImage(with: url, completed: nil)
     }
     
     override func layoutSubviews() {
